@@ -44,7 +44,7 @@ const Menu = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 2,
-    backgroundColor: '#35605a',
+    backgroundColor: '#1877f2',
   },
   bottomRow: {
     flex: 1,
@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   bottomButtonStyles: {
-    backgroundColor: '#35605a',
+    backgroundColor: '#1877f2',
     width: '100%',
     height: '50%',
     paddingRight: 20,
@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   buttonStyles: {
-    backgroundColor: '#35605a',
+    backgroundColor: '#1877f2',
     width: '50%',
     height: '55%',
     alignItems: 'center',

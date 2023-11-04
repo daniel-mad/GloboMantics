@@ -50,14 +50,15 @@ const GlobalHeader = () => {
 
 const styles = StyleSheet.create({
   headStyle: {
-    backgroundColor: '#35605a',
+    backgroundColor: '#1877f2',
     flexDirection: 'row',
   },
   imageStyle: {
     alignSelf: 'flex-start',
-    height: 100,
-    width: 100,
-    flex: 1,
+    height: 50,
+    width: 50,
+    margin: 5,
+    resizeMode: 'cover',
   },
   headText: {
     textAlign: 'right',

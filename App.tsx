@@ -6,6 +6,8 @@ import AboutScreen from './app/views/About';
 import LoginScreen from './app/views/Login';
 import RegisterScreen from './app/views/Register';
 import GlobalHeader from './app/components/Header';
+import Blog from './app/views/Blog';
+import BlogDetail from './app/views/BlogDetail';
 
 const Stack = createNativeStackNavigator();
 
@@ -13,6 +15,16 @@ const App = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
+        <Stack.Screen
+          name="Blog"
+          component={Blog}
+          options={{title: 'Globo Blog'}}
+        />
+        <Stack.Screen
+          name="BlogDetail"
+          component={BlogDetail}
+          options={{headerShown: false}}
+        />
         <Stack.Screen
           name="Register"
           component={RegisterScreen}
